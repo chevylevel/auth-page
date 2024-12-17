@@ -38,11 +38,11 @@ const StyledTextField = styled(forwardRef((props, ref) => {
         background: '#FFFFFF',
         border: '1px solid #DCDEE0'
     },
-    '&:hover, &.Mui-focused': {
-        background: '#FFFFFF',
+    '& .MuiInputLabel-root, .MuiInputLabel-root.Mui-focused': {
+        color: '#A6ABB0',
     },
-    '&:before, &:after': {
-        display: 'none',
+    '& .MuiInputBase-root:hover, .MuiInputBase-root.Mui-focused': {
+        background: '#FFFFFF',
     },
 }));
 

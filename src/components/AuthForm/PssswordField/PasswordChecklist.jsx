@@ -77,7 +77,7 @@ export default function PasswordChecklist({ issues, dirty }) {
                     }
 
                     return (
-                        <Stack key={item.code} direction={'row'}>
+                        <Stack key={item.code} direction={'row'} alignItems={'center'}>
                             {icon}
 
                             <StyledText color={color} >
