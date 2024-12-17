@@ -1,0 +1,23 @@
+.container {
+    position: relative;
+    display: flex;
+    height: 100%;
+    padding: 156px 64px;
+    background-image: url("/public/banner-bg.png");
+    background-repeat: no-repeat;
+    background-color: #526ed3;
+    background-size: cover;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.screenBg {
+    width: 167%;
+    overflow: hidden;
+    border-radius: 24px;
+}
+
+.screenBg img {
+    width: 100%;
+}
+
