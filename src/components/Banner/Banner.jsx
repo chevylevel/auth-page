@@ -4,6 +4,13 @@ import { descriptionText, headerText } from "./constants";
 import AvatarWithEmoji from "../Avatar/AvatarWithEmoji";
 import { Stack, styled, Typography } from '@mui/material';
 
+import screen from '../../assets/screen.png';
+import trader2 from '../../assets/trader2.png';
+import trader1 from '../../assets/trader1.png';
+import money from '../../assets/money.png';
+import chart from '../../assets/chart.png';
+
+
 const StyledScreen = styled('div')(({ theme }) => ({
     position: 'absolute',
 
@@ -48,15 +55,15 @@ function Banner() {
             <StyledScreen>
                 <div className={styles.screenBg}>
                     <img
-                        src="/screen.png"
+                        src={screen}
                         alt="screen"
                         loading={'lazy'}
                     />
                 </div>
 
                 <AvatarWithEmoji
-                    photoSrc={"/trader2.png"}
-                    emojiSrc={"/money.png"}
+                    photoSrc={trader2}
+                    emojiSrc={money}
                     style={{
                         top: '40%',
                         transform: 'translateX(-50%)'
@@ -64,8 +71,8 @@ function Banner() {
                 />
 
                 <AvatarWithEmoji
-                    photoSrc={"/trader1.png"}
-                    emojiSrc={"/chart.png"}
+                    photoSrc={trader1}
+                    emojiSrc={chart}
                     style={{
                         top: '0%',
                         left: '62%',

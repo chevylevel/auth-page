@@ -3,7 +3,7 @@
     display: flex;
     height: 100%;
     padding: 156px 64px;
-    background-image: url("/public/banner-bg.png");
+    background-image: url("../../assets/banner-bg.png");
     background-repeat: no-repeat;
     background-color: #526ed3;
     background-size: cover;
