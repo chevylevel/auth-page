@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/mindmoney/static/css/main.38486f50.css",
+    "main.js": "/mindmoney/static/js/main.14468a17.js",
+    "static/media/banner-bg.png": "/mindmoney/static/media/banner-bg.451ae14e276d3246d58b.png",
+    "index.html": "/mindmoney/index.html",
+    "main.38486f50.css.map": "/mindmoney/static/css/main.38486f50.css.map",
+    "main.14468a17.js.map": "/mindmoney/static/js/main.14468a17.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38486f50.css",
+    "static/js/main.14468a17.js"
+  ]
+}
