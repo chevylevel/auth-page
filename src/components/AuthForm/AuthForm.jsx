@@ -162,8 +162,6 @@ export default function AuthForm() {
                     color: '#FFFFFF'
                 }}>
                     Sign up
-
-                    {JSON.stringify(isDirty)}
                 </Typography>
             </Button>
         </Box >
