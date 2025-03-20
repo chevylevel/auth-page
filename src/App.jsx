@@ -2,7 +2,7 @@ import React from "react";
 import RegisterPage from "./components/RegisterPage/RegisterPage";
 import { ThemeProvider } from '@mui/material';
 import { createTheme } from '@mui/material';
-import themeSettings from './theme';
+import themeSettings from './theme.ts';
 
 export const theme = createTheme(themeSettings);
 
