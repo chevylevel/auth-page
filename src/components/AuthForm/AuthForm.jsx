@@ -51,7 +51,7 @@ export default function AuthForm() {
         register,
         handleSubmit,
         watch,
-        formState: { errors, isDirty },
+        formState: { errors, isDirty, isValid },
     } = useForm({
         resolver: zodResolver(authsSchema),
         defaultValues: {
@@ -147,7 +147,7 @@ export default function AuthForm() {
                 type="submit"
                 fullWidth
                 variant="contained"
-                disabled={Object.keys(errors).length !== 0 || !isDirty}
+                disabled={!isValid}
                 sx={{
                     height: 48,
                     borderRadius: 2,
