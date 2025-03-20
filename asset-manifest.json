@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/mindmoney/static/css/main.38486f50.css",
-    "main.js": "/mindmoney/static/js/main.e5b00989.js",
-    "static/media/trader1.png": "/mindmoney/static/media/trader1.7f828f2dfe7259f559ae.png",
-    "static/media/trader2.png": "/mindmoney/static/media/trader2.ee41cb03f00bac3eb9ec.png",
-    "static/media/screen.png": "/mindmoney/static/media/screen.a697c9732cd5c7f04556.png",
-    "static/media/banner-bg.png": "/mindmoney/static/media/banner-bg.451ae14e276d3246d58b.png",
-    "index.html": "/mindmoney/index.html",
-    "main.38486f50.css.map": "/mindmoney/static/css/main.38486f50.css.map",
-    "main.e5b00989.js.map": "/mindmoney/static/js/main.e5b00989.js.map"
+    "main.css": "/auth-page/static/css/main.f9003bcb.css",
+    "main.js": "/auth-page/static/js/main.dc36033a.js",
+    "static/media/trader1.png": "/auth-page/static/media/trader1.7f828f2dfe7259f559ae.png",
+    "static/media/trader2.png": "/auth-page/static/media/trader2.ee41cb03f00bac3eb9ec.png",
+    "static/media/screen.png": "/auth-page/static/media/screen.a697c9732cd5c7f04556.png",
+    "static/media/banner-bg.png": "/auth-page/static/media/banner-bg.451ae14e276d3246d58b.png",
+    "index.html": "/auth-page/index.html",
+    "main.f9003bcb.css.map": "/auth-page/static/css/main.f9003bcb.css.map",
+    "main.dc36033a.js.map": "/auth-page/static/js/main.dc36033a.js.map"
   },
   "entrypoints": [
-    "static/css/main.38486f50.css",
-    "static/js/main.e5b00989.js"
+    "static/css/main.f9003bcb.css",
+    "static/js/main.dc36033a.js"
   ]
 }
